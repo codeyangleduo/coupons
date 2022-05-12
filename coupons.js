@@ -5,7 +5,7 @@ function coupons() {
     var myDate = new Date()
     var hours = myDate.getHours()
     console.log(hours)
-    if (hours == 0) {
+    if (hours == 16) {
         var XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
         var httpRequest = new XMLHttpRequest(); //第一步：建立所需的对象
         httpRequest.open('GET', 'http://jieyou.pro:9023/jp/crowdFoundingUser/grantFiveYuanCoupon?mobile=18807065942&userId=1075120', true); //第二步：打开连接  将请求参数写在url中  ps:"http://localhost:8080/rest/xxx"
@@ -59,7 +59,7 @@ function coupons_temp() {
 
     var myDate = new Date()
     var hours = myDate.getHours()
-    if (hours == 0) {
+    if (hours == 16) {
 
         var XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
         var httpRequest = new XMLHttpRequest(); //第一步：建立所需的对象
