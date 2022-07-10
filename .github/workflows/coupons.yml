@@ -1,13 +1,13 @@
-name: coupons
+#name: coupons
  
-on:
+#on:
   push:
     branches:
       - main
   schedule:   
     - cron: '40 15 * * *'   #国际标准时间，北京时间+8，即24点钟
  
-jobs:
+#jobs:
   run-coupons:
     runs-on: ubuntu-latest
     steps:
